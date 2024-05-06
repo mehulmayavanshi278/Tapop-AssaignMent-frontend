@@ -76,7 +76,7 @@ function Profile() {
       updatephoneNo && formData.append("phoneNo", updatephoneNo);
 
       const res = await userService.update(formData);
-      if (res.status === 200) {
+      if (res?.status === 200) {
         setupdateCoverPhoto(null);
         setupdateProfilePhoto(null);
         setupdateEmail("");

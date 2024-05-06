@@ -59,8 +59,8 @@ const SignUpPage = () => {
       formData.append("email", email);
       formData.append("password", password);
       formData.append("gender", gender);
-      formData.append("file", profilePhoto);
-      formData.append("file", coverPhoto);
+      formData.append("profilePhoto", profilePhoto);
+      formData.append("coverPhoto", coverPhoto);
 
       const res = await userService.signup(formData);
       if (res.status === 200) {

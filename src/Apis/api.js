@@ -1,5 +1,5 @@
-// const BaseURL = "http://localhost:5000";
-const BaseURL = "https://tapop-assaign-ment-backend.vercel.app";
+const BaseURL = "http://localhost:5000";
+// const BaseURL = "https://tapop-assaign-ment-backend.vercel.app";
 
 const loginApi = {
   url: "/user/login",
